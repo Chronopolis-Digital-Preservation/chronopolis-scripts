@@ -1,0 +1,9 @@
+{
+  "snapshots" : [ {
+    "snapshotId" : "sample_7123_sample-collection-number-1_2019-05-03-18-10-37",
+    "description" : "This is an example snapshot",
+    "sourceSpaceId" : "sample-collection-number-1",
+    "sourceStoreId" : "7123",
+    "status" : "SNAPSHOT_COMPLETE"
+  }]
+}
