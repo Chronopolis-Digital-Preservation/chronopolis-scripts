@@ -3,7 +3,13 @@ The reasoning for this could be anything, but previously has happened when
 decomissioning a node.
 
 The `replicator.py` should be run first, and when all replications are complete
-the `history-create.sh` can be run.
+the `history-create.sh` can be run if events need to be created for the
+duracloud-bridge.
+
+## Dependencies
+
+* python3
+* requests (installed via pip)
 
 example
 ```

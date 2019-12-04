@@ -4,6 +4,13 @@ checksum which it saw in its EventLog which can be queried through a json
 interface. The events are then parsed and the checksum which was calculated is
 extracted.
 
+In order to use this script, first download the report of error'd files from ACE
+AM and remove the error prefix. Then run `retrieve-seen.sh` in order to download
+the events for each error'd file. Finally, run `extract-hash.sh` to extract the
+last seen checksum from events. Currently this will format them for a comparison
+using the ACE AM compare api; this can be modified to be a simple `digest  file`
+format by editing `extract-hash.sh`.
+
 Example usage:
 ```
 [ace-checksums] $ cat ace-report 
