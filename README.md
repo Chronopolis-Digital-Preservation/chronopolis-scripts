@@ -19,3 +19,15 @@ Generate a diff between depositors in two ACE AMs
 Migrate data to a new node in Chronopolis
 
 * [node-mirgation](node-migration)
+
+## ACE Delete
+
+Remove an entire group from ACE AM
+
+* [ace-delete](ace-delete)
+
+## DPN Sunset
+
+Documentation of the DPN Sunset process for Chronopolis
+
+* [dpn-sunset](dpn-sunset)
