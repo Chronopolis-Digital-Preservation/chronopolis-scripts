@@ -31,3 +31,9 @@ Remove an entire group from ACE AM
 Documentation of the DPN Sunset process for Chronopolis
 
 * [dpn-sunset](dpn-sunset)
+
+## Replication Performance
+
+Documentation of the scripts for summarizing and monitoring replication speed
+
+* [replication-summary](replication-summary)
