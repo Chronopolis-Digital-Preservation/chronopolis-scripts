@@ -32,10 +32,15 @@ Sun Dec  8 06:10:55 PST 2019: 16103592  15726   15
 ```
 
 ## Replication Speed from Splunk
+
 splunk search
+
 bytes/sec host="chron.ucsd.edu" sourcetype="chronopolis-replication-rsync"
+
 assume only one host in the csv
+
 ORDERED FROM LAST TO FIRST!!!!
+
 export csv
 
 ```
