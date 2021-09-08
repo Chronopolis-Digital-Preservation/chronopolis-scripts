@@ -30,3 +30,30 @@ Sat Dec  7 03:42:58 PST 2019: 16105614  15728   15
 Sat Dec  7 14:10:56 PST 2019: 3412320   3332    3
 Sun Dec  8 06:10:55 PST 2019: 16103592  15726   15
 ```
+
+## Replication Speed from Splunk
+splunk search
+bytes/sec host="chron.ucsd.edu" sourcetype="chronopolis-replication-rsync"
+assume only one host in the csv
+ORDERED FROM LAST TO FIRST!!!!
+export csv
+
+```
+./summary.sh /tmp/ucsd-splunk.csv
+bb1 8.5T
+bb2 6.7T
+bb3 6.4T
+bb4 6.2T
+bb5 5.9T
+bb6 5.8T
+bb7 6.6T
+bb8 6.9T
+bb9 12.1T
+bb0 8.4T
+total = 73.5T
+avg = 99.5MB/s
+min = 64.7MB/s
+max = 144.8MB/s
+overall = 196.1MB/s
+overall time = 109.2 hours
+```
