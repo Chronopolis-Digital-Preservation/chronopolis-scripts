@@ -16,7 +16,7 @@ if [ ! -f $csv ]; then
   exit 1
 fi
 
-tr -d ',' </ad/rstanonik/ucsd-splunk.csv |\
+tr -d ',' <$csv |\
 awk '
   BEGIN {
     min=1e9
